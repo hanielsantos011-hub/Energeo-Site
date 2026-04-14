@@ -4,138 +4,161 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Energéo Service</title>
+
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" href="logo.png">
+
 </head>
 
 <body>
 
-                                        <!--TOPO -->
-  <header>
-    <nav>
-      <img src="cantinho.png" alt="Logo Energéo" class="logo">
+<!-- 🔝 HEADER -->
+<header>
+  <nav>
+    <div class="menu">
+      <a href="#">Início</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#contato">Contato</a>
+    </div>
 
-      <div class="menu">
-        <a href="#">Início</a>
-        <a href="#servicos">Serviços</a>
-        <a href="#contato">Contato</a>
-      </div>
-    </nav>
-  </header>
+    <img src="cantinho.png" alt="Logo Energéo" class="logo">
+  </nav>
+</header>
 
-                                        <!--INÍCIO -->
-  <section class="inicio">
-            <div class="pagina-inicial">
-                <h1><span>Especialistas</span> em Ar-Condicionado</h1>
-                <p><strong>Garantimos a qualidade e o desempenho que o seu ar-condicionado merece, com serviços especializados em instalação, manutenção e PMOC, proporcionando mais eficiência, economia e conforto para o seu ambiente.</strong></p>
+<!-- 🏠 HERO -->
+<section class="inicio">
+  <div class="pagina-inicial">
+    <h1><span>Especialistas</span> em Ar-Condicionado</h1>
 
-                <a href="https://wa.me/5542984283480?text=Olá,%20quero%20um%20orçamento" class="btn" target="_blank">
-        Solicitar Orçamento
-                </a>
-            </div>
-    </section>
+    <p>
+      <strong>
+        Garantimos qualidade e desempenho com instalação,
+        manutenção e PMOC, trazendo eficiência e conforto.
+      </strong>
+    </p>
 
-                                        <!--PREÇOS -->
-    <section class="precos">
-                <h2>Preços</h2>
+    <a href="https://wa.me/5542984283480?text=Olá,%20quero%20um%20orçamento"
+       class="btn"
+       target="_blank">
+      Solicitar Orçamento
+    </a>
+  </div>
+</section>
 
-            <div class="preco-destaque">
-            <div>
-                <p>A partir de</p>
-                <h1>R$ 150,00</h1>
-                <span>Manutenção</span>
-            </div>
+<!-- 💰 PREÇOS -->
+<section class="precos">
+  <h2>Preços</h2>
 
-            <div>
-                <p>A partir de</p>
-                <h1>R$ 300,00</h1>
-                <span>Instalação</span>
-            </div>
+  <div class="preco-destaque">
 
-            <div>
-                <p>A partir de</p>
-                <h1>R$ 500,00</h1>
-                <span>PMOC</span>
-            </div>
-            </div>
-        </section>
+    <div class="card-preco">
+      <p>A partir de</p>
+      <h1>R$ 150,00</h1>
+      <span>Manutenção</span>
+    </div>
 
-                                <!--ORÇAMENTO -->
-        <section id="orcamento" class="orcamento">
-            <h2>Solicite um Orçamento</h2>
+    <div class="card-preco">
+      <p>A partir de</p>
+      <h1>R$ 300,00</h1>
+      <span>Instalação</span>
+    </div>
 
-            <a href="https://wa.me/5542984283480" target="_blank" class="btn">
-                Falar no WhatsApp
-            </a>
-        </section>
+    <div class="card-preco">
+      <p>A partir de</p>
+      <h1>R$ 500,00</h1>
+      <span>PMOC</span>
+    </div>
 
-                                <!--SERVIÇOS -->
-        <section id="servicos" class="servicos">
-            <h2>Nossos Serviços</h2>
+  </div>
+</section>
 
-            <div class="servicos-container">
+<!-- 📲 ORÇAMENTO -->
+<section id="orcamento" class="orcamento">
+  <h2>Solicite um Orçamento</h2>
 
-            <div class="servico">
-                <img src="manutencao.jpg" alt="Manutenção">
-                <h3>Manutenção</h3>
-                <p>Preventiva e corretiva para seu ar-condicionado.</p>
-            </div>
+  <a href="https://wa.me/5542984283480"
+     target="_blank"
+     class="btn">
+    Falar no WhatsApp
+  </a>
+</section>
 
-            <div class="servico">
-                <img src="instalacao.jpg" alt="Instalação">
-                <h3>Instalação</h3>
-                <p>Instalação profissional com segurança e qualidade.</p>
-            </div>
+<!-- 🛠️ SERVIÇOS -->
+<section id="servicos" class="servicos">
+  <h2>Nossos Serviços</h2>
 
-            <div class="servico">
-                <img src="PMOC.png" alt="PMOC">
-                <h3>PMOC</h3>
-                <p>Plano completo de manutenção e controle.</p>
-            </div>
+  <div class="servicos-container">
 
-            </div>
-        </section>
+    <div class="servico fade">
+      <img src="manutencao.jpg" alt="Manutenção" loading="lazy">
+      <h3>Manutenção</h3>
+      <p>Preventiva e corretiva para seu ar-condicionado.</p>
+    </div>
 
-                            <!--BOTÃO FLUTUANTE -->
-            <a href="https://wa.me/5542984283480" class="whatsapp-float" target="_blank">
-                <img src="zap.png" alt="WhatsApp">
-            </a>
+    <div class="servico fade">
+      <img src="instalacao.jpg" alt="Instalação" loading="lazy">
+      <h3>Instalação</h3>
+      <p>Instalação profissional com segurança.</p>
+    </div>
 
-                            <!--CONTATO -->
-        <section id="contato" class="contato">
-            <h2>Contato</h2>
+    <div class="servico fade">
+      <img src="PMOC.png" alt="PMOC" loading="lazy">
+      <h3>PMOC</h3>
+      <p>Plano completo de manutenção e controle.</p>
+    </div>
 
-            <ul>
-                <li><strong>Telefone:</strong> (42) 98428-3480</li>
-                <li><strong>Email:</strong> contato@energeo.com.br</li>
-            </ul>
-        </section>
+  </div>
+</section>
 
-                                    <!--RODAPÉ -->
-        <footer>
+<!-- 💬 BOTÃO -->
+<a href="https://wa.me/5542984283480"
+   class="whatsapp-float"
+   target="_blank">
+  <img src="zap.png" alt="WhatsApp">
+</a>
 
-            <div class="rodape">
-                <p>&copy; 2026 Energéo Service</p>
-            </div>
+<!-- 📞 CONTATO -->
+<section id="contato" class="contato">
+  <h2>Contato</h2>
 
-            <div class="redes-sociais">
-                <a href="https://wa.me/5542984283480" target="_blank" class="social-btn">
-                    <img src="wpp.png">
-                </a>
+  <ul>
+    <li><strong>Telefone:</strong> (42) 98428-3480</li>
+    <li><strong>Email:</strong> contato@energeo.com.br</li>
+  </ul>
+</section>
 
-                <a href="https://www.instagram.com/energeo.gas/" target="_blank" class="social-btn">
-                    <img src="insta.png">
-                </a>
+<!-- 🔻 FOOTER -->
+<footer>
 
-                <a href="https://www.instagram.com/energeo.gas/" target="_blank" class="social-btn">
-                    <img src="face.png">
-                </a>
-            </div>
+  <div class="rodape">
+    <p>&copy; 2026 Energéo Service</p>
+  </div>
 
-        </footer>
-        <script src="script.js"></script>
-        <script>
-window.addEventListener("scroll", function() {
+  <div class="redes-sociais">
+
+    <a href="https://wa.me/5542984283480" target="_blank">
+      <img src="wpp.png">
+    </a>
+
+    <a href="https://www.instagram.com/energeo.gas/" target="_blank">
+      <img src="insta.png">
+    </a>
+
+    <a href="#" target="_blank">
+      <img src="face.png">
+    </a>
+
+  </div>
+
+</footer>
+
+<!-- JS -->
+<script src="script.js"></script>
+
+<script>
+
+/* 🔥 ESCONDER NAV NO FOOTER */
+window.addEventListener("scroll", () => {
   const footer = document.querySelector("footer");
   const nav = document.querySelector("nav");
 
@@ -147,6 +170,23 @@ window.addEventListener("scroll", function() {
     nav.classList.remove("nav-hide");
   }
 });
-        </script>
-    </body>
+
+/* 🔥 ANIMAÇÃO AO APARECER */
+const elements = document.querySelectorAll(".fade, .card-preco");
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("show");
+    }
+  });
+}, {
+  threshold: 0.2
+});
+
+elements.forEach(el => observer.observe(el));
+
+</script>
+
+</body>
 </html>
